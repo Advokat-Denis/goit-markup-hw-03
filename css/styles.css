@@ -4,11 +4,13 @@ html, body {
 }
 
 .container {
-    max-width:
-        padding-left: 
-        padding-right: 
-        margin-left: 
-        margin-right:
+    max-width: 1158px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 
+    padding-right: 
+    margin-left: 
+    margin-right:
 }
 
 title {
@@ -30,19 +32,42 @@ body {
     display: block;
     margin: auto;
     }
+header {
+    width: 1440px;
+    height: 72px;
+    display: inline;
+}
+
+.section-1 {
+    width: 1440px;
+    height: 104px;
+    display: inline;
+}
+
+.section-3 {
+    width: 1440px;
+    height: 732px;
+    display: inline;
+}
+
+.section-4 {
+    width: 1128px;
+    height: 1000px;
+    display: inline;
+}
 
 .bg-fiolet {
     background-color: #434455;
     }
 
 .topline {
-color: var(--NAVY-BLUE, #2E2F42);
-font-family: "Roboto";
-font-size: 16px;
-font-style: "normal";
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.32px;
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: "normal";
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
 
 a:hover {
@@ -51,29 +76,35 @@ a:hover {
 
 .contact {
     color: var(--SLATE, #434455);
-        font-family: "Roboto";
-        font-size: 16px;
-        font-style: "normal";
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.32px;
-        text-decoration: "none";
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: "normal";
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-decoration: "none";
     }
 
 
 .dark {
     background: var(--NAVY-BLUE, #2E2F42);
+    width: 1440px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
     }
     
 h1 {
-        color: var(--WHITE, #FFF);
-            text-align: "center";
-            font-family: "Roboto";
-            font-size: 56px;
-            font-style: "normal";
-            font-weight: 700;
-            line-height: 60px;
-            letter-spacing: 1.12px;
+    color: var(--WHITE, #FFF);
+    font-family: "Roboto";
+    font-size: 56px;
+    font-style: "normal";
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
     }
 
 .button {border-radius: 4px;
@@ -137,6 +168,7 @@ p {
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.32px;
+       
 }
 
 .end {
