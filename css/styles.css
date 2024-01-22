@@ -40,6 +40,15 @@ header {
     align-items: center;
 }
 
+.container-2 {
+   
+    }
+
+.container-3, ul, li {
+   display: inline;
+
+}
+
 section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -57,6 +66,7 @@ section {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
+    display: inline;
     }
     
 
@@ -82,7 +92,7 @@ a:hover {
     background: var(--NAVY-BLUE, #2E2F42);
     width: 1440px;
     height: 600px;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -145,7 +155,7 @@ p {
         letter-spacing: 0.32px;
 }
 
-.name {
+.name, ul, li, p, h3 {
     color: var(--NAVY-BLUE, #2E2F42);
         text-align: "center";
         font-family: "Roboto";
@@ -154,6 +164,7 @@ p {
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.4px;
+        display: inline;
 }
 
 .name1 {
